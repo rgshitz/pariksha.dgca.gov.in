@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta data-name="description"
+        content="Directorate General of Civil Aviation, Government of India,National Institute of Electronics &amp; Information Technology (NIELIT),(erstwhile DOEACC Society), an Autonomous Scientific Society under the administrative control of Department of Electronics &amp; Information Technology (DeitY), Ministry of Communications and Information Technology, Government of India">
+    <meta data-name="keywords"
+        content="DGCA,dgca, dgca pariksha,pariksha,ame,pilot,flight crew,examination,nielit, NIELIT, digital literacy,student">
+    <meta data-name="language" content="en">
+
+    <title> Pariksha DGCA</title>
+
+    <link rel="icon" href="dgcafevicon.jpg" type="image/gif" sizes="16x16">
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link type="text/css" href="custom.css" rel="stylesheet" />
+    <link href="bootstrap-datepicker.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <!-- <div id="loader"
+        style="position: fixed;z-index: 9999;width: 100%;background: #abb1afa6;top: 0;text-align: center;height: 100%;">
+        <img style="width: 200px;margin-top: 20%;" src="dgca_spinner.gif" />
+    </div> -->
+
+
+
+
+
+
+
+    <div class="fixed-top" style='position:relative;'>
+        <img style="width:100%;height:150px;" src='banner-prikshadgca.jpg?v=1' />
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark background-blue">
+            <div class="container" style="max-width: 100%;width: 100%;">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenuhide(this);' class="nav-link" href="/welcome.jsp">Home</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenuhide(this);' class="nav-link" href="/login/About_US">About Us</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenushow(this);'>Help Desk
+                                <ul onmouseover='showsubmenu(this);' onmouseout='hidesubmenu(this);'
+                                    style='display:none;padding: 1%;position: absolute;background-color: rgb(127, 133, 126); margin: 0px;'>
+                                    <li><a class="nav-link" href="/login/Raise_query">Raise Query
+                                        </a></li>
+                                    <li><a class="nav-link" href="/login/Query_Status_Search">View Status
+                                        </a></li>
+                                </ul>
+                            </a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenushow(this);'>Suggestions
+                                <ul onmouseover='showsubmenu(this);' onmouseout='hidesubmenu(this);'
+                                    style='display:none;padding: 1%;position: absolute;background-color: rgb(127, 133, 126); margin: 0px;'>
+                                    <li><a class="nav-link" href="/login/Suggestion_Form">Suggestion Form
+                                        </a></li>
+                                </ul>
+                            </a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenushow(this);'>FAQs
+                                <ul onmouseover='showsubmenu(this);' onmouseout='hidesubmenu(this);'
+                                    style='display:none;padding: 1%;position: absolute;background-color: rgb(127, 133, 126); margin: 0px;'>
+                                    <li><a class="nav-link" href="/login/AME_FAQs">AME
+                                        </a></li>
+                                    <li><a class="nav-link"
+                                            href="/../PDFViewer.jsp?pdf=01BA8FB2105DBF5FA48E2F8D89E1E054">FAQ Flight
+                                            Crew
+                                        </a></li>
+                                </ul>
+                            </a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenuhide(this);' class="nav-link" href="/login/Contact_US">Contact
+                                Us</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenuhide(this);' class="nav-link"
+                                href="/../PDFViewer.jsp?pdf=E22FF074A3C07EB4C9DE58925F4BDAF8">Reasons For Computer
+                                Number Rejection</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenushow(this);'>USER MANUAL
+                                <ul onmouseover='showsubmenu(this);' onmouseout='hidesubmenu(this);'
+                                    style='display:none;padding: 1%;position: absolute;background-color: rgb(127, 133, 126); margin: 0px;'>
+                                    <li><a class="nav-link"
+                                            href="/../PDFViewer.jsp?pdf=7BF87B0A3FC41C5BA11949B5900F1D5F">AME MANUAL
+                                        </a></li>
+                                    <li><a class="nav-link"
+                                            href="/../PDFViewer.jsp?pdf=6F8C326FEC34C153B92877E1A963F221">Flight Crew
+                                            MANUAL
+                                        </a></li>
+                                </ul>
+                            </a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenushow(this);'>Examinations
+                                <ul onmouseover='showsubmenu(this);' onmouseout='hidesubmenu(this);'
+                                    style='display:none;padding: 1%;position: absolute;background-color: rgb(127, 133, 126); margin: 0px;'>
+                                    <li><a class="nav-link"
+                                            href="/../PDFViewer.jsp?pdf=D936F869AD694C2A939DA28FD78DFE1F">Exam Calender
+                                        </a></li>
+                                    <li><a class="nav-link"
+                                            href="/../PDFViewer.jsp?pdf=1A745E291DDC1E1BDC7FD70AEC52B711">Syllabus
+                                        </a></li>
+                                    <li><a class="nav-link"
+                                            href="/../PDFViewer.jsp?pdf=402D802D506EC40A80B625FBAF485E43">Reference Book
+                                            - AME
+                                        </a></li>
+                                    <li><a class="nav-link"
+                                            href="/../PDFViewer.jsp?pdf=C9FAE7D86796081D3AA68DC41AF53315">Reference Book
+                                            - FC
+                                        </a></li>
+                                    <li><a class="nav-link" href="/login/ame_olode_seat_count">Ame OLODE Available seats
+                                        </a></li>
+                                    <li><a class="nav-link" href="/login/fc_olode_seat_count">FC OLODE Available Seats
+                                        </a></li>
+                                </ul>
+                            </a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenuhide(this);' class="nav-link"
+                                href="/login/Institute_Login">Operator Login</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenuhide(this);' class="nav-link" href="/login/Admin_Login">Officer
+                                Login</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <nav class="navheader">
+            <div>
+                <div>
+                    Registration Module
+                </div>
+
+            </div>
+        </nav>
+    </div>
+
+    <div id="Notifications" class="container page"
+        style="max-width:80%;margin-left:10%;margin-right:10%;margin-top:3%;">
+        <div class="row">
+            <div class="col-md-5 form-control" style="padding:0px;margin:0px;">
+                <h3 class="login-header my-3">Notice Board for AME</h3>
+                <marquee direction="up" onmouseleave='this.start()' onmouseenter='this.stop()' height="300"
+                    scrolldelay="300">
+                    <div>
+
+                        <p><a href="/PDFViewer.jsp?pdf=8CEC40A9B93988A208496B12E88218EC">
+                                <font style="color:#587452!important"><img src="img/new.gif" alt="new"
+                                        style="width:20px;height:15px;margin-right:5px;" />Result AME Online On demand
+                                    examination (OLODE) Session 06 of 2025</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=B8223BCA14ED89DB9F5BD954C4D16811">
+                                <font style="color:#587452!important">Instructions for FC and AME OLODE Session 06 of
+                                    2025</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=67D7E8206B26ED3B699DB686BDA104CF">
+                                <font style="color:#587452!important">List of Admitted Candidates for AME OLODE Session
+                                    06 of 2025</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=8F160216BD859904816CEC29DF5E1A94">
+                                <font style="color:#587452!important">Venue List for AME OLODE Session 06 of 2025</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=049D377D9FDBCF953525AE07182C5D2F">
+                                <font style="color:#587452!important">Result AME Online On demand examination (OLODE)
+                                    Session 05 of 2025</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=1F4F7CF34E9DF61E0EAD3259E4907D20">
+                                <font style="color:#587452!important">Public Notice Online On Demand Examination (OLODE)
+                                    Session 06 of 2025</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=D3922B8D961CD7A48C61095368BE9721">
+                                <font style="color:#587452!important">Result AME Online On demand examination (OLODE)
+                                    Session 08 of 2024</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=8A72BAF4CCB6D6F5C4A1F47E38B5ACB0">
+                                <font style="color:#587452!important">Public Notice on Abolishment of the Submission of
+                                    the Hard Copy for Allotment of the Computer Number and certification by Competent
+                                    Authority and Attestation by Notary/Gazetted Officer</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=C25E38E163ECEF94A312885091335C9A">
+                                <font style="color:#587452!important">Public Notice Online On Demand Examination (OLODE)
+                                    Session 07 of 2024</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=5D9D6B5FA95578946C045B06B306C774">
+                                <font style="color:#587452!important">Public Notice - AME & FC Online Exam Regular
+                                    Session 02 of 2024</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=021D3CD99197A66305B770D10B7FF2FC">
+                                <font style="color:#587452!important">Public Notice Online On Demand Examination (OLODE)
+                                    Session 02 of 2024</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=40D8D4F2C3E839B184630D7358320881">
+                                <font style="color:#587452!important">Public Notice Online On Demand Examination (OLODE)
+                                    Session 01 of 2024</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=CB354E76635B4C97EDBAAA979B98BA31">
+                                <font style="color:#587452!important">PUBLIC NOTICE FOR EXAM DATES Regular Session 04 of
+                                    2023</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=129D6ECCB19950E00AADC7FDD4391DF6">
+                                <font style="color:#587452!important">Result- AME Licence Examination -Basic and
+                                    Aircraft Type- Session 02 of 2023</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=0B898F68F7CC6CA0DA9FBF8CF9439DAB">
+                                <font style="color:#587452!important">PUBLIC NOTICE FOR EXAM DATES Regular Session 02 of
+                                    2023</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=7FE930346365B3CCD072FCF62CE07BEE">
+                                <font style="color:#587452!important">Public Notice Schedule AME and FC Licence
+                                    Examination Regular Session 02 of 2023</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=317A56C0979833312CBEA9587C6EBF3F">
+                                <font style="color:#587452!important">Public Notice for AME i.r.t Aircraft Type
+                                    Examination (Paper IV)</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=A1234DCCBF10540C06C6FD257223764A">
+                                <font style="color:#587452!important">Guidelines (revised) for appearing online Aircraft
+                                    Type examination</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=1934CFC0C82A1885FA7943574B79F408">
+                                <font style="color:#587452!important">AME-Pariksha/Instruction No 02/2018 Dated
+                                    20.09.2018 - Dos and Don't to be followed in AME- Registration Module</font>
+                            </a></p>
+
+                    </div>
+                </marquee>
+            </div>
+
+            <div class="col-md-2" style="padding:0px;margin:0px;"></div>
+            <div class="col-md-5 form-control" style="padding:0px;margin:0px;"><!-- login-col -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <input type="hidden" value='0' id=formupdateid name="formupdateid" />
+                <input type="hidden" value='insert' id="formaction" name="formaction" />
+                <input type="hidden" value='Login' id="WebPageFormID" name="WebPageFormID" />
+                <input type="hidden" value='' id="k80" name="k80" />
+                <input type="hidden" value='' id="v80" name="v80" />
+
+                <input type="hidden" value='' id="Eformname" name="Eformname" />
+                <input type="hidden" value='' id="keypassword" name="keypassword" />
+
+
+                <input type="hidden" id="reportfontsize" value="Login" />
+                <input type="hidden" id="FormHeader" value="Login Module" />
+                <input type="hidden" id="FormDisplayName" value="Login" />
+                <input type="hidden" id="filterheaderdata" value="Login" />
+                <input type="hidden" id="DefaultOrientaion" value="Portrait" />
+
+                <div id="AllFields">
+
+                    <div groupname="Login" style="width: 100%;max-width: 100%;    margin: 1%;
+    background-color: #f4f4f459;    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding-bottom: 2%;" class="group form container  Login">
+                        <h3 style="" class="login-header my-3">
+
+
+
+                            Login
+                        </h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div fontsize=14 id=90 groupcomponentmappingid=90 class=" Left col-sm-12 mb-12 " style="margin-top:20px;max-width:100%;width:100%;
+  ">
+                            <span class='spanlabelling'></span>
+                            <label filterdata='0' displayname='Computer_No'>
+                                Email-ID/ Computer Number</label>
+                            <input condition='null' onblur='return formcondition(this)' value='' id='Computer_No'
+                                data-toggle="tooltip" name='90' required type="text" autocomplete="off" Value=""
+                                class="form-control text" id='90' title="Enter Computer Number/Email-ID"
+                                placeholder="Enter Computer Number/Email-ID">
+                        </div>
+
+
+
+                        <div fontsize=14 id=1066 groupcomponentmappingid=1066 class=" Left col-sm-12 mb-12" style="margin-top:20px;max-width:100%;width:100%;
+  display:none;"> <span class='spanlabelling'></span>
+
+                            <a condition='null' onclick='return formcondition(this)' value='Forget Computer No'
+                                style="text-decoration: underline;color: blue !important;"
+                                title="Forgot Computer Number" data-toggle="tooltip" name='1066'
+                                href="/login/Forget Computer No">
+                                Forgot Computer Number</a>
+                        </div>
+
+
+
+                        <div fontsize=14 id=89 groupcomponentmappingid=89 class=" Left col-sm-12 mb-12" style="margin-top:20px;max-width:100%;width:100%;
+  ">
+                            <span class='spanlabelling'></span>
+                            <label filterdata='0' displayname='Password'>Password</label>
+                            <input condition='null' onblur='return formcondition(this)' value='' id='Password'
+                                title="Enter Password" data-toggle="tooltip" name='89' required autocomplete="off"
+                                type="password" class="password form-control" id='89' placeholder="Enter Password">
+                        </div>
+
+
+
+                        <div fontsize=14 id=84 groupcomponentmappingid=84 class=" Left col-sm-12 mb-12" style="margin-top:20px;max-width:100%;width:100%;
+  "> <span class='spanlabelling'></span>
+
+                            <a condition='null' onclick='return formcondition(this)' value='Forgot_Password'
+                                style="text-decoration: underline;color: blue !important;" title="Forgot Password"
+                                data-toggle="tooltip" name='84' href="/login/Forgot_Password">
+                                Forgot Password</a>
+                        </div>
+
+
+
+                        <div fontsize=14 id=83 groupcomponentmappingid=83 class=" Left col-sm-12 mb-12" style="margin-top:20px;max-width:100%;width:100%;
+  ">
+                            <span class='spanlabelling'></span>
+                            <label filterdata='0' displayname='Captcha'>Captcha</label>
+                            <br />
+                            <input type="hidden" id="captchacode" />
+                            <div style="display: inline">
+                                <div class="captchaimage" style='background: #cfcfcf!important'>
+                                </div>
+                                <input autocomplete="off" id="Captcha" data-toggle="tooltip" name="captcha" min="0"
+                                    max="200" autocomplete="off" type="text" placeholder="Solution"
+                                    class="form-control captcha number"
+                                    style="font-size: 14px;width: 100px;float: left;" title="Please Enter Captcha Here">
+                                <img class="captcharefresh" onclick="generatecaptcha()" src="refresh.png"
+                                    style="height: 24px;width: 24px;float: left;margin-left: 10px;margin-top: 6px;">
+                            </div>
+                            <input type="hidden" id="hascaptcha" value="true" />
+                        </div>
+
+
+
+                        <div fontsize=14 id=85 groupcomponentmappingid=85 class=" Left col-sm-12 mb-12" style="margin-top:20px;max-width:100%;width:100%;
+ ">
+                            <button condition='null' id='Login' type="button"
+                                onclick="window.location.href = 'log.html';"
+                                class="button btn btn-primary">Login</button>
+                        </div>
+
+
+
+                        <div fontsize=14 id=2056 groupcomponentmappingid=2056 class=" Left col-sm-12 mb-12" style="max-width:100%;width:100%;
+  ">
+                            <label filterdata='0'
+                                style="line-height: 15px;max-width:100%;width:100%;color: #d00e0e;   font-weight: normal;"
+                                condition='null' onclick='return formcondition(this)'
+                                title="Fresh candidate can login using their registered email id till the time candidate is not registered with DGCA. After successful registration a computer number is used for login."
+                                data-toggle="tooltip" id="2056"><span style="font-weight:bolder">NOTE:&nbsp;</span>
+                                Candidate can login using their registered email id till the time of creation of a
+                                Computer Number .</label>
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+                    <input id="FormDetails" type="hidden" name="FormDetails" /> <input type="hidden" id="FormSubmitUrl"
+                        name="FormSubmitUrl" value='Personal_Details' /> <input type="hidden" id="FormName"
+                        name="FormName" value="Login" />
+                    <input type="hidden" id="PostType" name="PostType" value="AME" />
+                    <input type="hidden" id="tableid" name="tableid" value="0" />
+                    <input type="hidden" id="Hastable" name="Hastable" value="false" />
+
+                </div>
+
+                <div id="confirmpopupdiv" style="display:none">
+                    <div id='confirmpopup'>
+                        <p class="msg"></p>
+                        <button type="button" onclick="okconfirmpopupdiv('confirmpopupdiv')"
+                            class="button btn">OK</button>
+                        <button type="button" onclick="closeconfirmpopupdiv('confirmpopupdiv')" style="color: white;"
+                            autofocus class="button btn cancelconfirmpopup">Cancel</button>
+                    </div>
+                </div>
+
+                <div id="sessionpopupdiv" style="display:none">
+                    <div id='sessionpopup'>
+                        <p class="msg">
+                            Your session is going to expire in 2 min.
+                        </p>
+                        <button type="button" onclick="sessionlogout('sessionpopupdiv')" class="button btn">Log
+                            Out</button>
+                        <button type="button" onclick="sessionlogin('sessionpopupdiv')" autofocus
+                            class="button btn cancelsessionpopup">Keep me login</button>
+                    </div>
+                </div>
+
+
+                <div style="display:none;" class="stickynote">
+                    <div>
+                        <p class="msg" style="color:black; width: 250px;"></p>
+                        <button onclick="stickynoteclose()" type="button" class="button btn btn-primary">OK</button>
+                    </div>
+                </div>
+
+                <div style="display:none;" class="selectotherblock">
+                    <div>
+                        <p style="color:black">Please enter details for other :</p>
+                        <input id="textforselectwithother" type="text" class="form-control" />
+                        <button onclick="selectotherblockadd()" type="button"
+                            class="button btn btn-primary">Add</button>
+                        <button onclick="selectotherblockcancel()" type="button"
+                            class="button btn btn-primary">Cancel</button>
+                    </div>
+                </div>
+
+                <div style="display:none;" class="alertnote">
+                    <div>
+                        <p class="msg" style="color:black; width: 250px;"></p><br />
+                        <button onclick="alertnoteclose()" type="button" class="button btn btn-primary">OK</button>
+                    </div>
+                </div>
+                <input type="hidden" id="FormID" name="FormID" value="14" />
+                <input type="hidden" name="FieldsData" />
+                <input type="hidden" name="FormDisplayOrder" value="" />
+
+                <script src="/js/aes.js"></script>
+                <script src="/js/pbkdf2.js"></script>
+                <script src="/js/cpexcel.js"></script>
+                <script src="/js/shim.js"></script>
+                <script src="/js/jszip.js"></script>
+                <script src="/js/xlsx.js"></script>
+                <script src="/js/Excel.js"></script>
+
+
+
+
+
+                <style>
+                    #sessionpopup {
+                        position: fixed;
+                        top: 30%;
+                        z-index: 999999999;
+                        left: 32%;
+                        background-color: white;
+                        padding: 2%;
+                        padding-left: 8%;
+                        padding-right: 8%;
+                        text-align: center;
+                        border-radius: 5px;
+                    }
+
+                    #sessionpopupdiv {
+                        position: fixed;
+                        z-index: 99999;
+                        width: 100%;
+                        top: 0;
+                        left: 0;
+                        background: #140f0fab;
+                        height: 100%;
+                    }
+
+                    #sessionpopup button:hover {
+                        background-color: rgb(37, 61, 82);
+                        border-color: rgb(37, 61, 82);
+
+                    }
+
+                    #sessionpopup button:hover {
+                        background-color: grey;
+                    }
+
+                    #sessionpopup p {
+                        width: 270px;
+                    }
+                </style>
+
+
+                <!-- <div class="Left linkpageregistration col-md-12 form-control"><a href="Form/New Candidate Registration">Registration for Computer Number</a></div> -->
+            </div>
+        </div>
+    </div>
+    <footer class="footer py-5 bg-dark background-blue">
+        <div>
+
+            <p class="m-0 text-center text-white">Developed and Maintained By NIELIT</p>
+        </div>
+    </footer>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+
+    <script src="/js/jquery.inputmask.bundle.js"></script>
+    <script src="/js/custom.js"></script>
+    <script src="/js/Condition.js"></script>
+</body>
+<style>
+    #AllFields div {
+        background-color: white !important;
+        border: none !important;
+        margin: 0px !Important;
+    }
+
+    #AllFields div .captchaimage {
+        background: #cfcfcf !important;
+        padding: 2%;
+        margin-right: 1% !important;
+    }
+</style>
+<script>
+    $(document).ready(function () {
+        for (var i = 0; i < $("a").length; i++) {
+            if (!(window.location.pathname.indexOf("Form") > 0 || window.location.pathname.indexOf("Admin") > 0 || window.location.pathname.indexOf("Dashboard") > 0)) {
+                if ($($("a")[i]).attr("href") != undefined) {
+                    if (!($($("a")[i]).attr("href").indexOf(".jsp") > 0)) {
+                        $($("a")[i]).attr("href", "../Form/" + $($("a")[i]).attr("href").split("/")[2]);
+                    }
+                }
+            }
+        }
+    });
+
+</script>
+
+</html>

@@ -1,0 +1,134 @@
+/* Styles */
+#dheeru {
+    /* margin-top:-180px !important; */
+    margin-bottom: 0px !important;
+}
+}
+
+.bg-wood1 {
+    background-color: #008d4c !important;
+}
+
+.bg-wood1 {
+    color: #f9f9f9 !important;
+}
+
+.small-box {
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.small-box>.small-box-footer {
+    font-weight: bold;
+}
+
+
+.small-box h3 {
+    font-size: 16px !important;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.small-box {
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+    border-radius: 20px !important;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.12), 0 10px 10px rgba(0, 0, 0, 0.24);
+}
+
+.small-box:hover {
+    background-color: #1CC09F !important;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    transform: translate(0px, -4px);
+}
+
+.small-box>.small-box-footer {
+    border-radius: 20px;
+    width: 95%;
+    margin-left: 6px;
+}
+
+.sweet {
+    text-shadow: 0px 15px 5px rgba(0, 0, 0, 0.1),
+        10px 20px 5px rgba(0, 0, 0, 0.05),
+        -10px 20px 5px rgba(0, 0, 0, 0.05);
+}
+
+#sweet {
+    text-shadow: 0px 15px 5px rgba(0, 0, 0, 0.1),
+        10px 20px 5px rgba(0, 0, 0, 0.05),
+        -10px 20px 5px rgba(0, 0, 0, 0.05);
+}
+
+.inner h3 {
+    text-shadow: 0px 15px 5px rgba(0, 0, 0, 0.1),
+        10px 20px 5px rgba(0, 0, 0, 0.05),
+        -10px 20px 5px rgba(0, 0, 0, 0.05);
+}
+
+
+
+.cardbox {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 200px;
+    text-align: center;
+    margin: 10px;
+    float: left;
+    background: #f4a23e;
+    border-radius: 5px;
+    padding: 15px;
+    padding-top: 0px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.cta-container {
+    display: none;
+    margin-top: 320px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 9999;
+}
+
+.cta {
+    -moz-border-radius: 2px;
+    -moz-transition: 0.2s ease-out;
+    -ms-transition: 0.2s ease-out;
+    -o-transition: 0.2s ease-out;
+    -webkit-border-radius: 2px;
+    -webkit-transition: 0.2s ease-out;
+    background-clip: padding-box;
+    border: 2px solid #3487f7;
+    border-radius: 2px;
+    color: #3487f7;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    height: 36px;
+    letter-spacing: 0.5px;
+    line-height: 36px;
+    margin-bottom: 15px;
+    padding: 0 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s ease-out;
+
+}
+
+.row:before,
+.row:after {
+    display: table;
+    content: " ";
+}
+
+.card {
+    border: none;
+}

@@ -1,0 +1,1762 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title> Pariksha DGCA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta data-name="description"
+        content="Directorate General of Civil Aviation, Government of India,National Institute of Electronics &amp; Information Technology (NIELIT),(erstwhile DOEACC Society), an Autonomous Scientific Society under the administrative control of Department of Electronics &amp; Information Technology (DeitY), Ministry of Communications and Information Technology, Government of India">
+    <meta data-name="keywords"
+        content="DGCA,dgca, dgca pariksha,pariksha,ame,pilot,flight crew,examination,nielit, NIELIT, digital literacy,student">
+    <meta data-name="language" content="en">
+
+    <link rel="icon" href="/img/dgcafevicon.jpg" type="image/gif" sizes="16x16">
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="/js/jquery-2.1.1.min.js"></script>
+    <script src="/js/bootstrap-datepicker.min.js"></script>
+    <script src="/js/jquery.inputmask.bundle.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/custom.js"></script>
+    <link type="text/css" href="/css/custom.css" rel="stylesheet" />
+
+    <style type="text/css">
+        .nav-item a {
+            width: auto;
+        }
+
+        .linkpage {
+            margin-top: 15px;
+            padding: 20px;
+            /* background: ; */
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .login-header {
+            text-align: center;
+            padding-top: 0x;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            color: white;
+            font-size: 16px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="loader"
+        style="position: fixed;z-index: 9999;width: 100%;background: #abb1afa6;top: 0;text-align: center;height: 100%;">
+        <img style="width: 200px;margin-top: 20%;" src="/img/dgca_spinner.gif" />
+    </div>
+
+
+
+
+
+
+
+    <div class="fixed-top" style='position:relative;'>
+        <img style="width:100%;height:150px;" src='/img/banner-prikshadgca.jpg?v=1' />
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark background-blue">
+            <div class="container" style="max-width: 100%;width: 100%;">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenuhide(this);' class="nav-link" href="/welcome.jsp">Home</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenuhide(this);' class="nav-link" href="/home/About_US">About Us</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenushow(this);'>Help Desk
+                                <ul onmouseover='showsubmenu(this);' onmouseout='hidesubmenu(this);'
+                                    style='display:none;padding: 1%;position: absolute;background-color: rgb(127, 133, 126); margin: 0px;'>
+                                    <li><a class="nav-link" href="/home/Raise_query">Raise Query
+                                        </a></li>
+                                    <li><a class="nav-link" href="/home/Query_Status_Search">View Status
+                                        </a></li>
+                                </ul>
+                            </a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenushow(this);'>Suggestions
+                                <ul onmouseover='showsubmenu(this);' onmouseout='hidesubmenu(this);'
+                                    style='display:none;padding: 1%;position: absolute;background-color: rgb(127, 133, 126); margin: 0px;'>
+                                    <li><a class="nav-link" href="/home/Suggestion_Form">Suggestion Form
+                                        </a></li>
+                                </ul>
+                            </a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenushow(this);'>FAQs
+                                <ul onmouseover='showsubmenu(this);' onmouseout='hidesubmenu(this);'
+                                    style='display:none;padding: 1%;position: absolute;background-color: rgb(127, 133, 126); margin: 0px;'>
+                                    <li><a class="nav-link" href="/home/AME_FAQs">AME
+                                        </a></li>
+                                    <li><a class="nav-link"
+                                            href="/../PDFViewer.jsp?pdf=01BA8FB2105DBF5FA48E2F8D89E1E054">FAQ Flight
+                                            Crew
+                                        </a></li>
+                                </ul>
+                            </a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenuhide(this);' class="nav-link" href="/home/Contact_US">Contact
+                                Us</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenuhide(this);' class="nav-link"
+                                href="/../PDFViewer.jsp?pdf=E22FF074A3C07EB4C9DE58925F4BDAF8">Reasons For Computer
+                                Number Rejection</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenushow(this);'>USER MANUAL
+                                <ul onmouseover='showsubmenu(this);' onmouseout='hidesubmenu(this);'
+                                    style='display:none;padding: 1%;position: absolute;background-color: rgb(127, 133, 126); margin: 0px;'>
+                                    <li><a class="nav-link"
+                                            href="/../PDFViewer.jsp?pdf=7BF87B0A3FC41C5BA11949B5900F1D5F">AME MANUAL
+                                        </a></li>
+                                    <li><a class="nav-link"
+                                            href="/../PDFViewer.jsp?pdf=6F8C326FEC34C153B92877E1A963F221">Flight Crew
+                                            MANUAL
+                                        </a></li>
+                                </ul>
+                            </a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenushow(this);'>Examinations
+                                <ul onmouseover='showsubmenu(this);' onmouseout='hidesubmenu(this);'
+                                    style='display:none;padding: 1%;position: absolute;background-color: rgb(127, 133, 126); margin: 0px;'>
+                                    <li><a class="nav-link"
+                                            href="/../PDFViewer.jsp?pdf=D936F869AD694C2A939DA28FD78DFE1F">Exam Calender
+                                        </a></li>
+                                    <li><a class="nav-link"
+                                            href="/../PDFViewer.jsp?pdf=1A745E291DDC1E1BDC7FD70AEC52B711">Syllabus
+                                        </a></li>
+                                    <li><a class="nav-link"
+                                            href="/../PDFViewer.jsp?pdf=402D802D506EC40A80B625FBAF485E43">Reference Book
+                                            - AME
+                                        </a></li>
+                                    <li><a class="nav-link"
+                                            href="/../PDFViewer.jsp?pdf=C9FAE7D86796081D3AA68DC41AF53315">Reference Book
+                                            - FC
+                                        </a></li>
+                                    <li><a class="nav-link" href="/home/ame_olode_seat_count">Ame OLODE Available seats
+                                        </a></li>
+                                    <li><a class="nav-link" href="/home/fc_olode_seat_count">FC OLODE Available Seats
+                                        </a></li>
+                                </ul>
+                            </a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenuhide(this);' class="nav-link"
+                                href="/home/Institute_Login">Operator Login</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a onmouseover='togglemenuhide(this);' class="nav-link" href="/home/Admin_Login">Officer
+                                Login</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <nav class="navheader">
+            <div>
+                <div>
+                    Login Module
+                </div>
+
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="blinking-text">
+
+
+        <span style="color:#4E7EB7!important;font-size:20px;"><b> </b></span>
+
+
+    </div>
+
+
+
+    <div id="Notifications" class="container page" style="padding-top:20px;max-width: 100%;margin-bottom: 0%;">
+        <div class="row" style='margin: 4%;margin-bottom: 0%;margin-top: 2%;'>
+            <div class="col-md-5 form-control"> <!-- form-control login-col -->
+                <div class="Left linkpage col-md-12 form-control" style="background-color:#587452!important">AME</div>
+                <br>
+                <div title='Candidate who have never applied for computer number.' class="indexlink"
+                    onclick="setposttypesession('AME','Form/Terms_and_Conditions')">
+                    <font style="cursor:pointer;font-weight: bold;color:#587452!important">NEW Candidate Registration
+                    </font>
+                </div>
+                <div title='Candidate having computer number before launch of DGCAPariksha portal.' class="indexlink"
+                    onclick="setposttypesession('AME','Form/Generate_Password')">
+                    <font style="cursor:pointer;font-weight: bold;color:#587452!important">OLD Candidate Registration
+                    </font>
+                </div>
+                <div title='DGCAPariksha candidates can login here.' class="indexlink"
+                    onclick="setposttypesession('AME','login')">
+                    <font style="cursor:pointer;font-weight: bold;color:#587452!important">Candidate Login</font>
+                </div>
+
+
+            </div>
+            <div class="col-md-2"></div>
+            <div class="col-md-5 form-control">
+                <div onclick="setposttypesession('PLT','')" class="Left  linkpage col-md-12 form-control"
+                    style="background-color:#4E7EB7">FLIGHT CREW</div><br>
+                <!-- <div title='Candidate who have never applied for computer number.' class="indexlink" onclick="setposttypesession('PLT','Form/Terms_and_Conditions')" ><font style="cursor:pointer;font-weight: bold;color:#4E7EB7"> NEW Candidate Registration</font></div>
+           <div title='Candidate having computer number before launch of DGCAPariksha portal.' class="indexlink" onclick="setposttypesession('PLT','Form/Generate_Password')" ><font style="cursor:pointer;font-weight: bold;color:#4E7EB7">OLD Candidate Registration</font></div>
+           <div title='DGCAPariksha candidates can login here.' class="indexlink" onclick="setposttypesession('PLT','login')" > <font style="cursor:pointer;font-weight: bold;color:#4E7EB7">Candidate Login</font></div>
+           -->
+                <!--           <div title='Candidate who have never applied for computer number.' class="indexlink" onclick="setposttypesession('PLT','Form/Terms_and_Conditions')" ><font style="cursor:pointer;font-weight: bold;color:#4E7EB7"> NEW Candidate Registration</font></div>
+           <div title='Candidate having computer number before launch of DGCAPariksha portal.' class="indexlink" onclick="setposttypesession('PLT','launch')" ><font style="cursor:pointer;font-weight: bold;color:#4E7EB7">OLD Candidate Registration</font></div>
+           <div title='DGCAPariksha candidates can login here.' class="indexlink" onclick="setposttypesession('PLT','login')" > <font style="cursor:pointer;font-weight: bold;color:#4E7EB7">Candidate Login</font></div>
+ --> <!-- 
+ 
+ 
+ onclick="setposttypesession('PLT','Form/Terms_and_Conditions')" 
+ onclick="setposttypesession('PLT','Form/Generate_Password')"
+ onclick="setposttypesession('PLT','login')"
+ server_maintenance
+ 
+  -->
+
+                <div title='Candidate who have never applied for computer number.' class="indexlink"
+                    onclick="setposttypesession('PLT','Form/Terms_and_Conditions')">
+                    <font style="cursor:pointer;font-weight: bold;color:#4E7EB7"> NEW Candidate Registration</font>
+                </div>
+                <div title='Candidate having computer number before launch of DGCAPariksha portal.' class="indexlink"
+                    onclick="setposttypesession('PLT','Form/Generate_Password')">
+                    <font style="cursor:pointer;font-weight: bold;color:#4E7EB7">OLD Candidate Registration</font>
+                </div>
+                <div title='DGCAPariksha candidates can login here.' class="indexlink"
+                    onclick="setposttypesession('PLT','login')">
+                    <font style="cursor:pointer;font-weight: bold;color:#4E7EB7">Candidate Login</font>
+                </div>
+                <div title='Candidate Self reject Application' class="indexlink"
+                    onclick="setposttypesession('PLT','Form/cand_selfreject')">
+                    <font style="cursor:pointer;font-weight: bold;color:#4E7EB7"> Candidate Self Reject</font>
+                </div>
+
+                <!-- <div title='DGCAPariksha candidates can login here.' class="indexlink" onclick="setposttypesession('PLT','launch')" > <font style="cursor:pointer;font-weight: bold;color:#4E7EB7">Candidate Login</font></div> -->
+            </div>
+
+        </div>
+    </div>
+    <div id="Notifications" class="container page" style="padding-top: 20px;max-width: 100%;">
+        <div class="row" style='max-width: 100%;margin: 4%;margin-top: 0%;'>
+            <div class="col-md-5 form-control"> <!-- form-control login-col -->
+
+                <h4 class="login-header my-3" style="background-color:#587452!important"><a
+                        title="click to view all notifications" style="color:white"
+                        href="/home/Notice_Board_General">NOTICE BOARD-AME</a></h4>
+                <marquee direction="up" onmouseleave='this.start()' onmouseenter='this.stop()' height="150"
+                    scrolldelay="300">
+                    <div>
+
+                        <p><a href="/PDFViewer.jsp?pdf=8CEC40A9B93988A208496B12E88218EC">
+                                <font style="color:#587452!important"><img src="img/new.gif" alt="new"
+                                        style="width:20px;height:15px;margin-right:5px;" />Result AME Online On demand
+                                    examination (OLODE) Session 06 of 2025</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=B8223BCA14ED89DB9F5BD954C4D16811">
+                                <font style="color:#587452!important">Instructions for FC and AME OLODE Session 06 of
+                                    2025</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=67D7E8206B26ED3B699DB686BDA104CF">
+                                <font style="color:#587452!important">List of Admitted Candidates for AME OLODE Session
+                                    06 of 2025</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=8F160216BD859904816CEC29DF5E1A94">
+                                <font style="color:#587452!important">Venue List for AME OLODE Session 06 of 2025</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=049D377D9FDBCF953525AE07182C5D2F">
+                                <font style="color:#587452!important">Result AME Online On demand examination (OLODE)
+                                    Session 05 of 2025</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=1F4F7CF34E9DF61E0EAD3259E4907D20">
+                                <font style="color:#587452!important">Public Notice Online On Demand Examination (OLODE)
+                                    Session 06 of 2025</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=D3922B8D961CD7A48C61095368BE9721">
+                                <font style="color:#587452!important">Result AME Online On demand examination (OLODE)
+                                    Session 08 of 2024</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=8A72BAF4CCB6D6F5C4A1F47E38B5ACB0">
+                                <font style="color:#587452!important">Public Notice on Abolishment of the Submission of
+                                    the Hard Copy for Allotment of the Computer Number and certification by Competent
+                                    Authority and Attestation by Notary/Gazetted Officer</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=C25E38E163ECEF94A312885091335C9A">
+                                <font style="color:#587452!important">Public Notice Online On Demand Examination (OLODE)
+                                    Session 07 of 2024</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=5D9D6B5FA95578946C045B06B306C774">
+                                <font style="color:#587452!important">Public Notice - AME & FC Online Exam Regular
+                                    Session 02 of 2024</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=021D3CD99197A66305B770D10B7FF2FC">
+                                <font style="color:#587452!important">Public Notice Online On Demand Examination (OLODE)
+                                    Session 02 of 2024</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=40D8D4F2C3E839B184630D7358320881">
+                                <font style="color:#587452!important">Public Notice Online On Demand Examination (OLODE)
+                                    Session 01 of 2024</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=CB354E76635B4C97EDBAAA979B98BA31">
+                                <font style="color:#587452!important">PUBLIC NOTICE FOR EXAM DATES Regular Session 04 of
+                                    2023</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=129D6ECCB19950E00AADC7FDD4391DF6">
+                                <font style="color:#587452!important">Result- AME Licence Examination -Basic and
+                                    Aircraft Type- Session 02 of 2023</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=0B898F68F7CC6CA0DA9FBF8CF9439DAB">
+                                <font style="color:#587452!important">PUBLIC NOTICE FOR EXAM DATES Regular Session 02 of
+                                    2023</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=7FE930346365B3CCD072FCF62CE07BEE">
+                                <font style="color:#587452!important">Public Notice Schedule AME and FC Licence
+                                    Examination Regular Session 02 of 2023</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=317A56C0979833312CBEA9587C6EBF3F">
+                                <font style="color:#587452!important">Public Notice for AME i.r.t Aircraft Type
+                                    Examination (Paper IV)</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=A1234DCCBF10540C06C6FD257223764A">
+                                <font style="color:#587452!important">Guidelines (revised) for appearing online Aircraft
+                                    Type examination</font>
+                            </a></p>
+
+                        <p><a href="/PDFViewer.jsp?pdf=1934CFC0C82A1885FA7943574B79F408">
+                                <font style="color:#587452!important">AME-Pariksha/Instruction No 02/2018 Dated
+                                    20.09.2018 - Dos and Don't to be followed in AME- Registration Module</font>
+                            </a></p>
+
+                    </div>
+                </marquee>
+            </div>
+            <div class="col-md-2"></div>
+
+            <!-- ---------------------------------for pilot ============-->
+            <div class="col-md-5 form-control">
+
+                <h4 class="login-header my-3" style="background-color:#4E7EB7!important"><a
+                        title="click to view all notifications" style="color:white"
+                        href="/home/Notice_Board_General_PLT">NOTICE BOARD-PILOT</a></h4>
+
+                <!--  <h4 class="login-header my-3" style="background-color:#4E7EB7!important"><a title="click to view all notifications" style="color:white" href="/home/Notice_Board_General">NOTICE BOARD-PILOT</a></h4>
+		    -->
+                <marquee direction="up" onmouseleave='this.start()' onmouseenter='this.stop()' height="150"
+                    scrolldelay="300">
+                    <div>
+
+                        <p><a href="/PDFViewer.jsp?pdf=11C0FA130A5A9F37A2BD0B7B265E294D">
+                                <font><img src="img/new.gif" alt="new"
+                                        style="width:20px;height:15px;margin-right:5px;" />Result-FATA Examination
+                                    Session 01 of AUGUST 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=7621EA88BAF26039CA4F649293797CD7">
+                                <font><img src="img/new.gif" alt="new"
+                                        style="width:20px;height:15px;margin-right:5px;" />Admitted List of FC
+                                    candidates for OLODE 06 of 2025 Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=D43CBD4A87E0FADA4E0E41F8BDC8C28F">
+                                <font><img src="img/new.gif" alt="new"
+                                        style="width:20px;height:15px;margin-right:5px;" />Flight Crew OLODE 06 of
+                                    2025-Venue list</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=B8223BCA14ED89DB9F5BD954C4D16811">
+                                <font>Instructions for FC and AME OLODE Session 06 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=BF6FFE965F850603B57CC15305E2DB92">
+                                <font>Result - Flight Crew License Examination 02 of 2025 Regular session, With Oral
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=3745F2015003735B2EF7A7C1B108A7C5">
+                                <font>FIR/AFIR Oral Exam Session 08 of 2025 , Candidate Eligibility List and Schedule -
+                                    New Delhi Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=E745A25AC8A7F1A3B6FF8C14AC849844">
+                                <font>Result Flight Crew OLODE Session 05 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=A07CC2CE0D57DAE62D919CA7BEFF25CC">
+                                <font>Result FIR/AFIR Oral Exam Session 07 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=1F4F7CF34E9DF61E0EAD3259E4907D20">
+                                <font>Public Notice Online On Demand Examination (OLODE) Session 06 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=664FD06F9D19B9864903AA153F80A69C">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 02 of 2025 - CHENNAI Center
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=96D66392D10F56B67F3EBB9BD3500458">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 02 of 2025 - MUMBAI Center
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=C4ED6BEFF1CB0E89698C0BE4E3C285B7">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 02 of 2025 - Delhi Center
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=7E9E69F0EEE41A9B908EBB51027D77C7">
+                                <font>Flight Crew OLODE 05 of 2025-Venue list</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=15ED26E28DBC604E857DA5552CBA649F">
+                                <font>Admitted List of FC candidates for OLODE 05 of 2025 Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=9DBD3EB543259EEF918F8CB972188C62">
+                                <font>Result-FATA Examination Session 01 of JULY 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=617EF722D5ACD5C9D3B0A4E28BAD65FA">
+                                <font>FIR/AFIR Oral Exam Session 07 of 2025 , Candidate Eligibility List and Schedule -
+                                    New Delhi Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=6BE27FE4F7AB6FEB7655A16D94F4FA11">
+                                <font>Result - Flight Crew License Examination 02 of 2025 Regular session, Without Oral
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=89036DDAB7EA67F04E3306EE9D751E12">
+                                <font>Result FDEG Examination 02 of 2025 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=AC700B06C358DA5BB1B5F71B5AC33856">
+                                <font>Public Notice on Flight Instructor Rating /Assistant Flight Instructor Rating
+                                    (FIR/AFIR) Oral Examination Session 07 of 2025.</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=86FE1B581B31E68E29CB3A8216A56A19">
+                                <font>Result-FATA Examination Session 02 of June 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=54B056E95D36DA519C9202E87A6F259A">
+                                <font>Result FIR/AFIR Oral Exam Session 06 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=351D2CBE57DE7C247B7AA6049D9A7FA6">
+                                <font>Result-FATA Examination Session 01 of June 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=EE5D9E974194F8D104975CE554D88C60">
+                                <font>Admitted List of Candidates for FC Exam 02 of 2025 Regular Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=1450A9AAC727B22393164DF8F30F4681">
+                                <font>List of Venues and Venue Address for Flight Crew Regular Session 02 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=A6C5068DC7DAE7105B0AA09F013679F1">
+                                <font>FIR/AFIR Oral Exam Session 06 of 2025 , Candidate Eligibility List and Schedule -
+                                    Chennai Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=F28C886808EE5E94F41CB602A73BA3EB">
+                                <font>FIR/AFIR Oral Exam Session 06 of 2025 , Candidate Eligibility List and Schedule -
+                                    Mumbai Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=EFEB097E2452E476BEB89A0CC781D117">
+                                <font>FIR/AFIR Oral Exam Session 06 of 2025 , Candidate Eligibility List and Schedule -
+                                    New Delhi Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=2615A16C3C3C1F543253F1E941D75DE4">
+                                <font>Result-FATA Examination Session 02 of May 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=5D86FB73D5A26EFE55C11F38AA2C2831">
+                                <font>Result-FATA Examination Session 01 of May 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=005565D7843C9BBB55183363E6A2132F">
+                                <font>Public Notice on FDEG and SFE Online Examination Session 02 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=A0DE52E377B588F0940D3C2E7CF515FB">
+                                <font>Public Notice on Flight Instructor Rating /Assistant Flight Instructor Rating
+                                    (FIR/AFIR) Oral Examination Session 06 of 2025.</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=89A778DC051BF0607CBB4558A015EAA1">
+                                <font>Result FIR/AFIR Oral Exam Session 05 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=026CA902424D246B439D8171D82C2FE4">
+                                <font>Result Flight Crew OLODE Session 04 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=E306FA7683299946508F13CA55017966">
+                                <font>Result - Flight Crew License Examination 01 of 2025 Regular session, With Oral
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=FBE1FE41013498D3647C3248F6745A6C">
+                                <font>Admitted List of FC candidates for OLODE 04 of 2025 Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=85000DCA49F005BD5347CB8BF39BBA6E">
+                                <font>Flight Crew Olode 04 of 2025-Venue list</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=2DFF03DD076CC02B5D9C01AAD1CD1347">
+                                <font>FIR/AFIR Oral Exam Session 05 of 2025 , Candidate Eligibility List and Schedule -
+                                    New Delhi Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=83E7E4B2D510A780695ED11B2DBAB571">
+                                <font>Public Notice on Flight Instructor Rating /Assistant Flight Instructor Rating
+                                    (FIR/AFIR) Oral Examination Session 05of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=0AB7E00BFF01130116B78A3A7994F686">
+                                <font>Result-FATA Examination Session 02 of April 2025 </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=406AFAD97D8389D13360A68E70EEE105">
+                                <font>Result FIR/AFIR Oral Exam Session 04 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=D4554B812A3EE7F1A5420168EB2CF081">
+                                <font>Result Flight Crew OLODE Session 03 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=31FF615BFE3E39EE4615A028A5CD6276">
+                                <font>Flight Crew Olode 03 of 2025-Venue list </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=3DD33590A7F6B974DBFC7E7071EA3EFC">
+                                <font>Result-FATA Examination Session 01 of April 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=FF71855863C4DFDB7CAE07C87CADEE23">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 01 of 2025 - Delhi Center
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=9C5A7B3B9925813F8E55D884EC29E565">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 01 of 2025 - Mumbai Center
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=00B5DB938D38A8B1234B1AC195BD9ED9">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 01 of 2025 - Chennai Center
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=15FEF1EEDB3E9D45524CD41862FA947A">
+                                <font>Admitted List of FC candidates for OLODE 03 of 2025 Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=277266F1A8E06B9DB01DE75EA3782048">
+                                <font>FIR/AFIR Oral Exam Session 04 of 2025 , Candidate Eligibility List and Schedule -
+                                    New Delhi Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=B0AACF505991F406BD74AB3D9C0B3312">
+                                <font>Public Notice on Flight Instructor Rating /Assistant Flight Instructor Rating
+                                    (FIR/AFIR) Oral Examination Session 04 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=D068BB208AED5829ED435A69687B2C30">
+                                <font>Result FIR/AFIR Oral Exam Session 03 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=6CB188820819F25FEA4A40049F76B8CF">
+                                <font>Result - Flight Crew License Examination 01 of 2025 Regular session, Without Oral
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=2B0CABCFED297A52D7A9DE3A5889E7D3">
+                                <font>Result FDEG Examination 01 of 2025 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=E3B0C9D82D4780C65569FE656E1F7D89">
+                                <font>Result-FATA Examination Session 02 of March 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=D82E71DA5AAAF257F1172A3E1A8E699C">
+                                <font>Result-FATA Examination Session 01 of March 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=60420F1E3719010A2ACBB10851CAED26">
+                                <font>Admitted List of Candidates for FC Exam 01 of 2025 Regular Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=EE28A1355DD29E6A08306716F46CB1AB">
+                                <font>List of Venues and Venue Address for Flight Crew Regular Session 01 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=C1672A39E89500910422FA73D38D720D">
+                                <font>FIR/AFIR Oral Exam Session 03 of 2025 , Candidate Eligibility List and Schedule -
+                                    Chennai Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=EDFEAC39EE36F2457509440A4E3A3AF2">
+                                <font>FIR/AFIR Oral Exam Session 03 of 2025 , Candidate Eligibility List and Schedule -
+                                    Mumbai Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=3E117C8DA6CC7F32726EA40F51B1A72F">
+                                <font>FIR/AFIR Oral Exam Session 03 of 2025 , Candidate Eligibility List and Schedule -
+                                    New Delhi Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=ED753BE7D76F0415AD99887B56432310">
+                                <font>Result FIR/AFIR Oral Exam Session 02 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=762953A21801502EEB234CD033B69525">
+                                <font>Result-FATA Examination Session 02 of February 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=28CEDEF6B5A21A1D61F2F8532223E1B8">
+                                <font>Public Notice on Flight Instructor Rating /Assistant Flight Instructor Rating
+                                    (FIR/AFIR) Oral Examination Session 03 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=3AF5DB88959A36AE7C874FF2468B93BB">
+                                <font>Public Notice on FDEG and SFE Online Examination Session 01 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=FFCA99E5A41E9B83A757618C119C3AE4">
+                                <font>Result Flight Crew OLODE Session 02 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=BE779E8B6305430CA6DD5EB4AA62EAD7">
+                                <font>Result-FATA Examination Session 01 of February 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=C37BC27A4B6D26A2A7D15D727207AE0D">
+                                <font>Admitted List of FC candidates for OLODE 02 of 2025 Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=D34ABDF6CB1AE4F26203E933BE782236">
+                                <font>List of Venues and Venue Address for Flight Crew Olode Session 02 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=FF2C00D1A091AEC59D59A86B8E0E07DE">
+                                <font>FIR/AFIR Oral Exam Session 02 of 2025 , Candidate Eligibility List and Schedule -
+                                    New Delhi Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=BDB80A571F194698EC45111C22465E29">
+                                <font>Result-ATPL Oral Examination December 04 of 2024 supplementary session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=9161FAC4C1FCCA1339E3D158F47811EC">
+                                <font>Result - Flight Crew License Examination 04 of 2024 Regular session, With Oral
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=8E9C3A5A7FC73D35E6213DCDEC611847">
+                                <font>Result-FATA Examination Session 02 of January 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=A2077756BF0B76336D7206156F927096">
+                                <font>Public Notice on Flight Instructor Rating /Assistant Flight Instructor Rating
+                                    (FIR/AFIR) Oral Examination Session 02 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=A1B6CF87968645DE406EF581F6D90EE5">
+                                <font>Result FIR/AFIR Oral Exam Session 01 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=207D7EC986A2D24C14AB4BD49D064E1E">
+                                <font>Result Flight Crew OLODE Session 01 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=746CAFCEE51361811A745503EEFC807D">
+                                <font>Result-FATA Examination Session 01 of January 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=7B6500BBFDA5DA7AA46A45C307019194">
+                                <font>List of Venues and Venue Address for Flight Crew Olode Session 01 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=FDD1DE16FD26CB05F6C3EC206875D698">
+                                <font>Admitted List of FC candidates for OLODE 01 of 2025 Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=47C933A1B0FDFDD70640EA0F0B71E44B">
+                                <font>FIR/AFIR Oral Exam Session 01 of 2025 , Candidate Eligibility List and Schedule -
+                                    Mumbai Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=6FFE14900C530FBDB9EB522C7C06CE68">
+                                <font>FIR/AFIR Oral Exam Session 01 of 2025 , Candidate Eligibility List and Schedule -
+                                    New Delhi Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=96723572E762E2EFC4BA779C18FBAB94">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 04 of 2024 Supplementary
+                                    Session- Delhi Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=9764CA59D8F6C51A43D9E6C8784BD438">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 04 of 2024 Supplementary
+                                    Session- Mumbai Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=1A0BBC383D18367A63C9ADA4CCC07A88">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 04 of 2024 Supplementary
+                                    Session- Chennai Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=68735A0BF6EAC325EF817F5666561758">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 04 of 2024 - Chennai Centre
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=CBFF75373371CC064E0B27BB4CE12740">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 04 of 2024 - Mumbai Centre
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=413E30A6325700420568363165A6F853">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 04 of 2024 - New Delhi Centre
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=987023CA3F96EAC3306B68883193009F">
+                                <font>Result-FATA Examination Session 02 of December 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=71DDE8DE9D3DFC53FADCBA80C0BF6AF3">
+                                <font>Public Notice on Flight Instructor Rating /Assistant Flight Instructor Rating
+                                    (FIR/AFIR) Oral Examination Session 01 of 2025</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=27ADCCB66990E89E3F20896FB295868F">
+                                <font>Result FIR/AFIR Oral Exam Session 07 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=6E6473C8E0DD94C8500A9F08375D1BEF">
+                                <font>Result FDEG Examination 04 of 2024 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=49EB2C49AECB66A646904FCF04CA1789">
+                                <font>Result - Flight Crew License Examination 04 of 2024 Regular session, Without Oral
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=ACB5C4232D8D32B0C68769573AA25EA8">
+                                <font>Result FATA Exam December 2024 -FATA S1 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=5BD8357D7077F7D737793881468EA411">
+                                <font> ATPL Oral Examination December 04 of 2024 supplementary session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=DB4CE5D03FC32F593DBAFD5CE65728E8">
+                                <font>Integration of the Digilocker with the Pariksha Portal for Application of
+                                    Allotment of Computer Number.</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=1D1C39F50AF7062ACD1A3BC47A6FD525">
+                                <font>Admitted List of Candidates for FC Exam 04 of 2024 Regular Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=E21B6025280B55110F6E75FF097D0EAE">
+                                <font>List of Venues and Venue Address for Flight Crew Regular Session 04 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=3634513AC1B81A4971E22E700C228E74">
+                                <font>Result of the FATA November S2 of 2024 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=432EDF4BA9A07C4D53174DEFC14948F7">
+                                <font>FIR/AFIR Oral Exam Session 07 of 2024 , Candidate Eligibility List and Schedule -
+                                    New Delhi Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=E474B2EE9091002A17F7A75E42F40F37">
+                                <font>Result - Flight Crew License Examination 03 of 2024 Regular session, With Oral
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=9A8C04B6ED0C99C6296C0AD9273AE1B9">
+                                <font>Result FIR/AFIR Oral Exam Session 06 of 2024 </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=F681FC7A35D51CD4B83E7A57BEF526C4">
+                                <font>Result Flight Crew OLODE Session 08 of 2024 </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=FAA68B08BAAC923175FF6498DF5C384B">
+                                <font>Public Notice on FDEG and SFE Online Examination Session 04 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=A7EED5C60120ED103D0969EB0FBC49EE">
+                                <font>Result FATA Exam November 2024 -FATA S1 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=2D97FA7AF88BCE2555F6FCACF024968A">
+                                <font>Admitted List of FC candidates for OLODE 08 of 2024 Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=31466E59D24AFBC22E456DB543D8A122">
+                                <font>List of Venues and Venue Address for Flight Crew Olode Session 08 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=689B254660F824CDEA5C6F75AB28E0DA">
+                                <font>FIR/AFIR Oral Exam Session 06 of 2024 , Candidate Eligibility List and Schedule -
+                                    New Delhi Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=CC8CA9E2D9311ECC89152CA468B4CD73">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 03 of 2024 - Chennai Centre
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=97C9EC633B049E4729099895E732DBB2">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 03 of 2024 - New Delhi Centre
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=1E659908CCF2C5D8F95CA08CCCA92A02">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 03 of 2024 -Mumbai Centre
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=15229EF756892EBF88D64CEA0F07E348">
+                                <font>Result FATA Exam October 2024 -FATA S2 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=D17B2BBC9286516E727F3FD853FA2543">
+                                <font>Result Flight Crew OLODE Session 07 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=B801198AEB41FAF3370CBC802B98EA68">
+                                <font>Result of Oral Examination FIR and AFIR session 05 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=4166F6A0E8E00DDCF6BD11D4C6429583">
+                                <font>Result FATA Exam October 2024 -FATA S1 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=1684F4F2E33C8FF43D5E56671C96DAE8">
+                                <font>Admitted List of FC candidates for OLODE 07 of 2024 Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=C04153ED562E82B74BAFDDFF5088A6A3">
+                                <font>List of Venues and Venue Address for Flight Crew Olode Session 07 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=8A72BAF4CCB6D6F5C4A1F47E38B5ACB0">
+                                <font>Public Notice on Abolishment of the Submission of the Hard Copy for Allotment of
+                                    the Computer Number and certification by Competent Authority and Attestation by
+                                    Notary/Gazetted Officer</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=A70B9E8ACBF3344B192B41D037212ABC">
+                                <font>FIR/AFIR Oral Exam Session 05 of 2024 , Candidate Eligibility List and Schedule -
+                                    New Delhi Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=9B138E20FCDF5270F2A48222365F5F2E">
+                                <font>Result Flight Crew License Examination 03 of 2024 Regular session, Without Oral
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=C023D16EEA9B0C13B870A9357BA074C3">
+                                <font>Public Notice on Flight Instructor Rating /Assistant Flight Instructor Rating
+                                    (FIR/AFIR) Oral Examination Session 05 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=C25E38E163ECEF94A312885091335C9A">
+                                <font>Public Notice Online On Demand Examination (OLODE) Session 07 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=AC205C1B896E14FD27ED270412FDFB5B">
+                                <font> Result FDEG Examination 03 of 2024 Online Session </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=C06FACD7AD502A40F6100B599C180DBE">
+                                <font>Result of Oral Examination FIR and AFIR session 04 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=61B1CC3BAFDB80F56C0408E3EF60CFFA">
+                                <font>List of Venues and Venue Address for Flight Crew Regular Session 03 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=7F4DD84C5F5EB0DFAA26A252DEA8AE4E">
+                                <font>Result FATA Exam September 2024 -FATA S1 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=D20AD4C854180050745C4CF4C787D754">
+                                <font>Admitted List of Candidates for FC Exam 03 of 2024 Regular Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=4944A6181C807D8B98538A989711A9DE">
+                                <font>List of Venues and Venue Address for Flight Crew Regular Session 03 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=8F2A7592E0B12DC4A2B670AB5566B622">
+                                <font>FIR/AFIR Oral Exam Session 04 of 2024 , Candidate Eligibility List and Schedule
+                                    -Chennai Center</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=9AB8BD21545DC2E092F008E14175DBF8">
+                                <font>FIR/AFIR Oral Exam Session 04 of 2024 , Candidate Eligibility List and Schedule
+                                    -Mumbai Center</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=A4D7DBEF7C558D0C00757AB9939CDCDE">
+                                <font>FIR/AFIR Oral Exam Session 04 of 2024 , Candidate Eligibility List and Schedule
+                                    -New Delhi Center</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=7BF807D7A42522DDCDAD4E3D50A6F4BE">
+                                <font>Result - Flight Crew License Examination 02 of 2024 Regular session, With Oral
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=BA9DB33BBB4EFB2F10914F3BE4E78893">
+                                <font>Result FATA Exam August 2024 -FATA S2 Online Session </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=186228280B793DCADC43F59E9A991C39">
+                                <font>Result of Oral Examination FIR and AFIR session 03 of 2024 </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=DF00D86D4116B0B5FF8E77AF8FE5FEA9">
+                                <font>Public Notice on Flight Instructor Rating /Assistant Flight Instructor Rating
+                                    (FIR/AFIR) Oral Examination Session 04 of 2024 </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=63F478BA6AFF02A8FFA874E3922A2242">
+                                <font>Public Notice on FDEG and SFE Online Examination Session 03 of 2024 </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=BD18A6F7DABE3DBB46EE481FA64500F0">
+                                <font>Result Flight Crew OLODE Session 06 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=D77F4D4A9BA17BE7829DE34DBA0A811D">
+                                <font>Result FATA Exam August 2024 -FATA S1 Online Session </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=2FD01C26840A6FC3EE8182781EF596E7">
+                                <font>FIR/AFIR Oral Exam Session 03 of 2024 , Candidate Eligibility List and Schedule -
+                                    New Delhi Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=F07E8D5A6F248DB397EF4E1FCB690139">
+                                <font>Result FATA Exam July 2024 -FATA S2 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=FADF947293F8EEFD558E385F4457C6D7">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 02 of 2024 -Chennai Centre
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=8978E6F28E958922A7D4DE13F1027268">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 02 of 2024 - New Delhi Centre
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=DB047544BC8C8832CA132981F1C912CD">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 02 of 2024 -Mumbai Centre
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=61CC482DBACFE3164516BFFAABC736F4">
+                                <font>Partial Rejection of Computer Number Allotment Application of Flight Crew.</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=99EC038D95CC4E5814B554112CDEBCCE">
+                                <font>FIR/AFIR ORAL EXAMINATION ON MONTHLY BASIS</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=0A450EACD33C5C4E064B172E2EA963C7">
+                                <font>Result Flight Crew OLODE Session 05 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=E060E33AE48E2333B0BD131A4C22A4DD">
+                                <font>Result FATA Exam July 2024 -FATA S1 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=608B447B027779580277971D132BC4A2">
+                                <font>Result of Oral Examination FIR and AFIR session 02 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=35404971D75FEBCE8ECAB6E01770123D">
+                                <font>Result Flight Crew License Examination 02 of 2024 Regular session, Without Oral
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=76B1EC87DBD6BD00CAA08136D1A5BED2">
+                                <font>Result FATA Exam June 2024 -FATA S2 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=942526C4B3039CE7C07F4BA44D1FCF4F">
+                                <font>Result FDEG Examination 02 of 2024 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=2DBF89691AEF802CF14A5AE5FB716F9B">
+                                <font>Result FATA Exam June 2024 -FATA S1 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=1481F868F4721A3023AA2BFB609E78EF">
+                                <font>Result Flight Crew OLODE Session 04 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=1D8D98A0B9042669BF34AD86A56DB2B5">
+                                <font>Result FATA Exam MAY 2024 -FATA S2 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=5D9D6B5FA95578946C045B06B306C774">
+                                <font>Public Notice - AME & FC Online Exam Regular Session 02 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=49AB1C815C37D141A1AB91E6D27A2933">
+                                <font>Result FATA Exam MAY 2024 -FATA S1 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=5BD4C0EBB169F5F44696EF9EF806AA82">
+                                <font>Result - Flight Crew License Examination 01 of 2024 Regular session, With Oral
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=3BE3D27583DC89E6D3A458EBF444C694">
+                                <font>Result FATA Exam April 2024 -FATA S2 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=FC1F9F6F7E1709BBC95DC82F63919C1C">
+                                <font>Result Flight Crew OLODE Session 03 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=DC8003E53D8EA5476601CE6CBFEA9F40">
+                                <font>Admitted List of FC candidates for OLODE 03 of 2024 Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=F3ABFC9B74B5C68347181F375B82134E">
+                                <font>Venue list for Online On Demand Examination (OLODE) session 03 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=C155A8F7EE88A97D917A348F4604FFA0">
+                                <font>Result FATA Exam April 2024 -FATA S1 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=D598C25B443CB151AEF28D22BFBD6C08">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 01 of 2024 in order of Roll
+                                    Number -Mumbai Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=F9E5170128C358C16110B0982F5A82E4">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 01 of 2024 in order of Roll
+                                    Number -Chennai Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=240C2D1EB1C94C9D2015682ABE96700F">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 01 of 2024 in order of Roll
+                                    Number -New Delhi Centre</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=1FB1A8068751C2F5E0C0ACBD17459BE2">
+                                <font>Result FDEG Examination 01 of 2024 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=3749545E9FD2B8BEB8A8500F508832C0">
+                                <font>Result FATA Exam March 2024 -FATA S2 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=300246E75672F3A0E86C9D9471FDF0A9">
+                                <font>Result FATA Exam March 2024 -FATA S1 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=A0F4BAB84CF9B0D14E441C04A070CD32">
+                                <font>Result Flight Crew License Examination 01 of 2024 Regular session, Without Oral
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=1DCD717830D8DF8AF5ED63ED71F69532">
+                                <font>Result of Oral Examination FIR and AFIR session 01 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=553903747BADDDA444F0F3B18FD572C7">
+                                <font>Result FATA Exam February 2024 -FATA S2 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=D146C4FF01ADCD50ACA9E2CED8D79BEE">
+                                <font>FIR/AFIR Oral Exam Session 01 of 2024 , Candidate Eligibility List and Schedule
+                                    -Chennai Center</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=E3F6DB5C87876BCE119C879DDF0F0CB0">
+                                <font>FIR/AFIR Oral Exam Session 01 of 2024 , Candidate Eligibility List and Schedule
+                                    -Mumbai Center</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=7118EB95E092EDF0F4FDBD7F6A73C5D6">
+                                <font>FIR/AFIR Oral Exam Session 01 of 2024 , Candidate Eligibility List and Schedule
+                                    -New Delhi Center</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=96624B36F761AEC8ABD566D076829913">
+                                <font>Result Flight Crew OLODE Session 02 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=737866A377C3EC52EB3030859E77AA58">
+                                <font>Result FATA Exam February 2024 -FATA S1 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=CF1D28C26FF7B9466B80EA2AAD36419A">
+                                <font>Result Flight Crew License Examination 04 of 2023 Regular session, With oral
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=EA2710B80C3F64CA2DA87687A8FAAFB3">
+                                <font>Public Notice on Flight Instructor Rating /Assistant Flight Instructor Rating
+                                    (FIR/AFIR) Oral Examination Session 01 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=021D3CD99197A66305B770D10B7FF2FC">
+                                <font>Public Notice Online On Demand Examination (OLODE) Session 02 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=4666469C7559C06BA667B1EB63801378">
+                                <font>Result FATA Exam January 2024 -FATA S2 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=2B0C3406E01E4085B11D8248E204BB64">
+                                <font>Result Flight Crew OLODE Session 01 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=A39EA65A1E03900AE7B5898D48A97F2D">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 04 of 2023 -New Delhi Centre
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=7BCA1BE9EDC0DE960F5799D3C2F829DD">
+                                <font> Flight Crew ATPL Oral Exam Eligibility List Session 04 of 2023 -Mumbai Centre
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=F24AFF674F61E57AE92ACECDDC77E89E">
+                                <font>Flight Crew ATPL Oral Exam Eligibility List Session 04 of 2023 -Chennai Centre
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=0DF96F19749101EB634FFD0B7855972D">
+                                <font>Result FATA Exam January 2024 -FATA S1 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=40CD5E90F8F46B92A35D908D618B69C4">
+                                <font>Admitted List of FC candidates for OLODE 01 of 2024 Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=2F76518641A0419C625AD733CF89CB16">
+                                <font>Result of Oral Examination FIR and AFIR session 04 of 2023</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=9FA25F04DAAB8A935380F33C82301DA2">
+                                <font>Result Flight Crew License Examination 04 of 2023 Regular session, Without oral
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=EE8178A63836A43921D7A56CCD0032A2">
+                                <font>Result FATA Exam December 2023-FATA S2 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=95A0E4C162DD0F3ADD582BA32CACCBC4">
+                                <font>Result FDEG Examination 04 of 2023 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=40D8D4F2C3E839B184630D7358320881">
+                                <font>Public Notice Online On Demand Examination (OLODE) Session 01 of 2024</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=9FC24F37670582435A960AF1D2D31EBE">
+                                <font>Instructions for FC and AME Regular Session 04 of 2023</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=57D15E5D36816E82F66C623B2F2C728A">
+                                <font>Admitted list of candidates for FDEG Exam 4 of 2023 Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=7893582C6042C6B3E91922D0C683F214">
+                                <font>New Delhi Center- FIR/AFIR Oral Exam Session 04 of 2023 , Candidate Eligibility
+                                    and Schedule List</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=9A8D39044C6BFD6F25DAA401E52028AA">
+                                <font>Mumbai Center- FIR/AFIR Oral Exam Session 04 of 2023 , Candidate Eligibility and
+                                    Schedule List</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=CCC2A5197C0766799327E75DD3F05308">
+                                <font>Result FATA Exam December 2023-FATA S1 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=A21122C92A274468E5572D92E918246D">
+                                <font>List of Venues and Venue Address for Flight Crew Exam 04 of 2023 regular Session
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=33C09A3991032761CB10B60E2FD6C2FA">
+                                <font>Admitted List of Candidates for FC Exam 04 of 2023 Regular Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=CB354E76635B4C97EDBAAA979B98BA31">
+                                <font>PUBLIC NOTICE FOR EXAM DATES Regular Session 04 of 2023</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=89D11B41DF132E80787667A9B12FFE6C">
+                                <font>Public Notice on Flight Instructor Rating /Assistant Flight Instructor Rating
+                                    (FIR/AFIR) oral examination 04 of 2023 session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=E6F85E2D365CDCFEEBECA2DE09ACC803">
+                                <font>Public Notice on FDEG and SFE online examination session 04 of 2023</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=B5E0E1ABB4D6F3D8A5B48803870C0CA9">
+                                <font>Result Flight Crew OLODE Session 08 of 2023</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=5F3F9EA1760BE1A3955D60731ACD58DA">
+                                <font>Result FATA Exam November 2023-FATA S2 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=DEF039176AC2561AF6D9FD5D377318EC">
+                                <font>Result FATA Exam November 2023-FATA S1 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=BF728E0D740C4F53780A9A98D563243B">
+                                <font>Result Flight Crew License Examination 03 of 2023 Regular session, With oral
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=266CCF32BDB6360E703D3931B1AD7473">
+                                <font> Result FATA Exam October, 2023-FATA S2 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=26AFF553B83334756ABDDA4B098BEB86">
+                                <font>Result Flight Crew OLODE Session 07 of 2023</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=247C18A1E49834A849A77ECCBB5D1657">
+                                <font>Result FATA Exam October, 2023-FATA S1 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=742900EBB6934EC366D8085B6F77B84A">
+                                <font>Result FDEG Examination 03 of 2023 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=5146774CB5DDBEEAD49337590128406E">
+                                <font>Result Flight Crew License Examination 03 of 2023 Regular session, Without oral
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=BA2C38B38C49634C9EEF4BFEF445AAB8">
+                                <font>Admitted list of candidates for FDEG Exam 3 of 2023 Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=FDCEEB2648E4AD943D5319F31F1597E1">
+                                <font>Result FATA Exam Sept, 2023-FATA S1 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=DAE19BC88939EE642A8AC203574DB5A5">
+                                <font>Result of Oral Examination FIR and AFIR session 03 of 2023</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=A0EDC37BA6F6417072E3318A173446DD">
+                                <font>Public Notice on FDEG and SFE online examination session 03 of 2023</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=5938C7FDF330E1C406E5A75785A27494">
+                                <font>Admitted List of Candidates for FC Exam 03 of 2023 Regular Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=CA4FEEA0F3E6E2581AB90FC6E275C666">
+                                <font>Result FATA Exam Aug, 2023-FATA S2 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=4AE84583990DA8A2E9E8AF1D88BFBDCC">
+                                <font>Result Flight Crew OLODE Session 06 of 2023</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=7D33AFB68D91953234AEE24919290855">
+                                <font>Result FATA Exam July, 2023-FATA S1 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=568B536ED669045F7A81E96D0472C499">
+                                <font>Result FDEG Examination 02 of 2023 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=AD90DDA8E1E6E3DB634EF4E71A38E97F">
+                                <font>Result Flight Crew License Examination 02 of 2023 Regular session, Without oral
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=D4296A3A8AD84F3DA0C5C344F024484D">
+                                <font>Admitted list of candidates for FDEG Exam 2 of 2023 Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=E2720FDB25119016D6AA623C8FB1C51D">
+                                <font>Result FATA Exam June, 2023-FATA S1 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=D3BF1D82EDFFF59E773052460C1CBFF1">
+                                <font>List of Venues and Venue Address for Flight Crew Exam 02 of 2023 regular Session
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=8FD9182C085D29A3E0E85DBE1E4BC0E0">
+                                <font>Admitted List of Candidates for FC Exam 02 of 2023 Regular Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=0B898F68F7CC6CA0DA9FBF8CF9439DAB">
+                                <font>PUBLIC NOTICE FOR EXAM DATES Regular Session 02 of 2023</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=CEB17B138774236269CBAA8EAF8D35A0">
+                                <font>Result FATA Exam May, 2023-FATA S2 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=9F9E76E5950783281827A8CA96145AE9">
+                                <font>Result Flight Crew License Examination 01 of 2023 Regular session, With oral
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=9C6E5DC739E8581CF91D3C15ED077CA7">
+                                <font>Result FATA Exam May, 2023-FATA S1 Online Session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=E4BBEF4B38745FD5655F872D33C0F1E4">
+                                <font>Public Notice on FDEG and SFE online examination session 02 of 2023</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=3756B15466F26C83316320CE32325A3E">
+                                <font>Result Flight Crew OLODE Session 04 of 2023</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=7FE930346365B3CCD072FCF62CE07BEE">
+                                <font>Public Notice Schedule AME and FC Licence Examination Regular Session 02 of 2023
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=38697B3C65FBC85B3F52A0138654DC45">
+                                <font>Corrigendum to Public Notice for Online On-Demand Examination (OLODE) for AME and
+                                    FC Session 04 of 2023 Dated 19 April 2023.</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=F09CBBD2DFDDFAE036DE65C67193690D">
+                                <font>Result of Oral Examination of FIR(A) and AFIR(A) July 2022 session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=8CAB5D4C910096EBF79BE403F63BC1A5">
+                                <font>Result Flight Crew License Examination 2 of 2022 Regular session, Without Oral
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=65178D505004B8C2C7627EE006F7F35D">
+                                <font>Public Notice regarding submission of fabricated/false documents to obtain the
+                                    Computer Number</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=3C1D7BD28A047550F4D39F1DBB6AA649">
+                                <font>Result of Oral Examination of FIR(A), FIR(H) and AFIR(A) APRIL 2022 session</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=128602A0C1544E81C8426BCE6D682FBA">
+                                <font>Public Notice :Applying through online for Refund of FC & AME Examination Fees
+                                </font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=5B8F8ED595A4225B83FB8765D06A181A">
+                                <font>Category update for Defense candidates in DGCA Pariksha Portal</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=9FE35689AB88965723908D6E418FDC42">
+                                <font>Notice for Defense Personnel applying for Flight Crew examination</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=6529337BF30925ECB5962DE1BDCA0D46">
+                                <font>FC- Public Notice Dtd. 12.11.2018 - PARIKSHA.DGCA for Flight Crew Licence
+                                    Examination Oct 2018</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=56993E4BA70819BCF1B2884D5C06FB9E">
+                                <font>Instruction No: 02/2018 Dtd. 05.11.2018 - Registration/Updation of Profile in
+                                    PARIKSHA.DGCA for Flight Crew Examination</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=7E4F4B6A49931D2EE97BADC56882A87E">
+                                <font>Public Notice - Opening of NEW examination portal pariksha.dgca.gov.in for Old
+                                    Flight Crew candidates to register in to the New System</font>
+                            </a></p>
+
+
+                        <p><a href="/PDFViewer.jsp?pdf=CAD70B9044BCF53505A7461FD5D26F70">
+                                <font> Instruction No 01/2018 Dated 07.09.2018 - REGISTRATION & ALLOTMENT OF COMPUTER
+                                    NUMBER Flight Crew Candidates</font>
+                            </a></p>
+
+
+                    </div>
+                </marquee>
+
+            </div>
+
+        </div>
+    </div><br>
+
+    <footer class="footer py-5 bg-dark background-blue">
+        <div>
+            <p class="m-0 text-center text-white" style="color:#55AAFF">
+                <font color="#fff" style="font-weight:bold;">Developed and Maintained By <a
+                        href="http://www.nielit.gov.in/delhi" target="_blank" style="color: white;"> NIELIT</a></font>
+            </p>
+        </div>
+    </footer>
+
+</body>
+<script>
+    $(document).ready(function () {
+        for (var i = 0; i < $("a").length; i++) {
+            if (!(window.location.pathname.indexOf("Form") > 0 || window.location.pathname.indexOf("Admin") > 0 || window.location.pathname.indexOf("Dashboard") > 0)) {
+                if ($($("a")[i]).attr("href") != undefined) {
+                    if (!($($("a")[i]).attr("href").indexOf(".jsp") > 0)) {
+                        $($("a")[i]).attr("href", "../Form/" + $($("a")[i]).attr("href").split("/")[2]);
+                    }
+                }
+            }
+        }
+    });
+
+</script>
+
+</html>
+<style>
+    .indexlink {
+        font-size: 24px;
+    }
+</style>
+<style>
+    .footer {
+        padding: .5em !important;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+
+    .background-blue {
+        /* background-color: rgb(190, 146, 25)!important; */
+        background-color: #37516f !important;
+        color: white;
+    }
+
+    .navheader {
+        text-align: center;
+        background-color: #5078a8 !important;
+        font-size: 20px;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    a {
+        font-size: 14px;
+    }
+
+    #Notifications a {
+        color: #4e7eb7;
+    }
+</style>
